@@ -56,8 +56,8 @@ protected $middlewareGroups = [
     ],
 
     'api' => [
-        // ...
         \Barryvdh\Cors\HandleCors::class,
+        // ...        
     ],
 ];
 ```
